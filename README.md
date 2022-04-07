@@ -9,10 +9,10 @@
 ###  Breakdown to Individual Stock
 ![image](https://user-images.githubusercontent.com/73721315/162101856-ef71aec2-4f6e-46ba-815f-8d093829ed63.png)
 - S&P500 as becnhmark only has increaeed by 1.8 times in the past 5 years 
-- AMRC is tenfold in the past 5 years.
-- MSEX is triple in the past 5 years.
-- TTEK is quadrupled. 
-- AWR,AWK,GWRS and MYRG all are doubled than 5 years before
+- AMRC has tenfold in the past 5 years.
+- MSEX has triple in the past 5 years.
+- TTEK has quadrupled. 
+- AWR,AWK,GWRS and MYRG all have doubled than 5 years before
 
 ###  Pay Attention to Stocks outperforamced Benchmark 
 ![image](https://user-images.githubusercontent.com/73721315/162112346-bb7e8e74-c596-42d4-90fb-d32f2c42dcb4.png)
@@ -29,13 +29,36 @@
 <img width="296" alt="image" src="https://user-images.githubusercontent.com/73721315/162262061-7f8852cc-ebce-498e-b171-293b467b0e81.png">
 
 - The results of p-value prove that they are all strong stationary
-- means you can regard its average monthly return as a expected longterm monlthy return
+- means you can regard its average monthly return as a expected monlthy return in a long-term aspect
 
 ### Overview of Expected Monthly Return for individual Stock
 ![image](https://user-images.githubusercontent.com/73721315/162265763-a10efeec-e30f-4670-8311-4805fe054e6b.png)
 
--
--
+- **AQUA** and **MTZ** has a high expected return but has been ignored before 
+- Drop those stocks have negative expected returns
+
+### Estimated Risk (Standard Deviation) 
+![image](https://user-images.githubusercontent.com/73721315/162330812-ec7eb2ca-fad7-407a-a22d-56f8b7811951.png)
+- **ARTNA** has a trait on stability that could lower the risk for the portfolio
+
+### Sharpe Ratios for Selected Stocks
+![image](https://user-images.githubusercontent.com/73721315/162330186-40bca660-ee31-47cc-8edd-b6cbdd425553.png)
+#### Based on all analysises above, I will pick out stocks into my profolio as belows :
+- AMRC,TTEK,MYRG,AQUA,MSEX,MTZ,AWK,GWRS,AWR(Profibility factors)
+- ARTNA (low risk factor)
+
+## 2 Optimize Portfolio
+
+### Correlation Matrix of Portfolio
+![image](https://user-images.githubusercontent.com/73721315/162336443-ccedcdfe-dbe1-4e6b-b1ba-3b76c9891667.png)
+- Highlighting the weak correlations (<= 0.2)
+- The portfolio looks well diversified 
+
+### Market Efficient Frontier 
+
+
+
+
 
 
 
