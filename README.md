@@ -54,7 +54,35 @@
 - Highlighting the weak correlations (<= 0.2)
 - The portfolio looks well diversified 
 
-### Market Efficient Frontier 
+### Using Monte Carlo to Simulate Market Efficient Frontier 
+![image](https://user-images.githubusercontent.com/73721315/162338974-72e87005-4ba4-443c-a0f2-cef1ca73d4a1.png)
+- Efficient Frontier helps in giving optimal weights to each stocks in your portfolio
+- For the convenience of calculation, I setted a minimum weight for each stock, which is 0.1% (tiny but useful)
+- By running the simulations for 500k times, the result shows the **red star** represnting the optimal point has the maximum sharpe ratio, which is 0.406, and **yellow star** representing the optimal point has the minimum risk,which the standard deviation is only 0.03
+
+### Visualizing the Optimiztions 
+
+![image](https://user-images.githubusercontent.com/73721315/162346610-f9f8ff49-8d49-41f2-ad4f-c805a5239b51.png)  ![image](https://user-images.githubusercontent.com/73721315/162346801-f12c0e86-8724-43ee-91e8-1ba80d1f2b63.png)
+
+- The model of maximum sharpe ratio suggests to invest on **TTEK**(29%),**AMRC**(21.4%),**AWR**(12.8%),**MSEX**(28.2%) and **MYRG**(8%) respectively
+- The recent price indexs of big holdings
+- AMRC(21.4%) looks like the factor generating most profit, while the rests for lowering the volatility
+
+
+![image](https://user-images.githubusercontent.com/73721315/162347422-daa27999-b068-4582-88cd-53ddc8c5c9f1.png) ![image](https://user-images.githubusercontent.com/73721315/162347461-a40c5526-25ed-4f85-9762-532757c08418.png)
+
+- The model of minimum volatility suggests to invest on **TTEK**(29%),**AMRC**(21.4%),**AWR**(12.8%),**MSEX**(28.2%) and **MYRG**(8%) respectively
+- The recent price indexs of big holdings
+
+
+## 3 Test the profibility of Portfolio with Benchmark
+
+![image](https://user-images.githubusercontent.com/73721315/162347577-1f21eacc-f39a-4834-984d-c3f485f0055f.png)
+- The portfolio of max sharpe ratio did apparently outperform S&P500 and it has a similar pattern as **AMRC**, which implys **AMRC** did contribute a lot to the whold portfolio even with the holdings of 21.4%.
+- The portflio of minmum volatility barely outperform the benckmark but stabler than each individual stock of portfolio. 
+
+
+
 
 
 
