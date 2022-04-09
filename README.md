@@ -1,8 +1,8 @@
 # Portfolio-Analysis-
+![image](https://user-images.githubusercontent.com/73721315/162109690-40ebcd8d-ec27-4708-b4dd-83f9f1eec71f.png)
 ## 1 Build Your own Portfolio
 
 ###  Select Any stock as you want and take the S&P500 as benchmark
-![image](https://user-images.githubusercontent.com/73721315/162109690-40ebcd8d-ec27-4708-b4dd-83f9f1eec71f.png)
 - Choose initial 31 stocks from utility sectors as example
 - Take an overview on their perfoimaces in the past 5 years (too many overlaps here)
 
